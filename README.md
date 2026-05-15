@@ -1,4 +1,4 @@
-# WeatherStation
+# Arduino Weather Station
 
 A small Arduino sketch that fetches the current weather from [Open-Meteo](https://open-meteo.com) over WiFi and displays it on a 16x2 I2C LCD.
 
