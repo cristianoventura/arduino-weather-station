@@ -2,6 +2,9 @@
 
 A small Arduino sketch that fetches the current weather from [Open-Meteo](https://open-meteo.com) over WiFi and displays it on a 16x2 I2C LCD.
 
+<img width="500" alt="weather-station" src="https://github.com/user-attachments/assets/b5ba2679-e35e-4414-b165-f0e927e05aa7" />
+
+
 ## Hardware
 
 | Component                       | Notes                                                |
@@ -22,8 +25,9 @@ The LCD's I2C backpack has four pins: `GND`, `VCC`, `SDA`, `SCL`. Connect them t
 | `SDA`   | `SDA` (also labeled `A4`) |
 | `SCL`   | `SCL` (also labeled `A5`) |
 
-
 No external resistors are needed — the I2C backpack has its own pull-ups, and the UNO R4 runs the bus at 3.3 V logic which the PCF8574 tolerates fine on a 5V supply.
+
+<img width="600" alt="circuit_image" src="https://github.com/user-attachments/assets/f9f6e7a3-f49e-46d5-aadb-96a635d847ac" />
 
 ## Required libraries
 
