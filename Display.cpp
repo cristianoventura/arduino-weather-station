@@ -1,5 +1,5 @@
-#include "display.h"
-#include "config.h"
+#include "Display.h"
+#include "Config.h"
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 

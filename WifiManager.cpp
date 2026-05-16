@@ -1,5 +1,5 @@
-#include "wifi_manager.h"
-#include "config.h"
+#include "WifiManager.h"
+#include "Config.h"
 #include <WiFiS3.h>
 
 bool connectWiFi() {

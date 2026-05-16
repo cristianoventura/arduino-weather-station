@@ -1,7 +1,7 @@
-#include "config.h"
-#include "wifi_manager.h"
-#include "weather_api.h"
-#include "display.h"
+#include "Config.h"
+#include "WifiManager.h"
+#include "WeatherApi.h"
+#include "Display.h"
 
 unsigned long lastFetch = 0;
 

@@ -1,5 +1,5 @@
-#include "weather_api.h"
-#include "config.h"
+#include "WeatherApi.h"
+#include "Config.h"
 #include <WiFiS3.h>
 #include <ArduinoHttpClient.h>
 #include <Arduino_JSON.h>

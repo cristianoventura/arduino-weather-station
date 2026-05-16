@@ -39,9 +39,9 @@ Install these from **Tools > Manage Libraries** in the Arduino IDE:
 
 `WiFiS3` and `Wire` ship with the Arduino UNO R4 board package — install it from **Tools > Board > Boards Manager** by searching for "Arduino UNO R4".
 
-## Configuration (`config.h`)
+## Configuration (`Config.h`)
 
-All tweakable values live in [`config.h`](config.h). Change your WiFi credentials and the coordinates before uploading the code.
+All tweakable values live in [`Config.h`](Config.h). Change your WiFi credentials and the coordinates before uploading the code.
 
 ```c
 // WiFi credentials
